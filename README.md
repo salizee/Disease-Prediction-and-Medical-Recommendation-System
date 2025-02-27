@@ -52,7 +52,7 @@ To run the Disease Prediction and Medical Recommendation System:
 
 ## Team Members
 
-- Salisu - A20541164
+- Salisu Muhammad - A20541164
 
 ## Project Files Overview
 
