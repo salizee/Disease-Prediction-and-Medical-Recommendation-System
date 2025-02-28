@@ -52,9 +52,7 @@ To run the Disease Prediction and Medical Recommendation System:
 
 ## Team Members
 
-- Tanmay Pramanick - A20541164
-- Kunal Rajput - A20540912
-- Soham Sonar - A20541266
+- Salisu - A20541164
 
 ## Project Files Overview
 
