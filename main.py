@@ -58,12 +58,11 @@ def predicted_value(patient_symptoms):
 
 # Function to correct the spellings of the symptom (if any)
 def correct_spelling(symptom):
-    closest_match, score = process.extractOne(symptom, symptoms_list_processed.keys())
-    # If the similarity score is above a certain threshold, consider it a match
-    if score >= 80:
-        return closest_match
-    else:
-        return None
+    match = process.extractOne(symptom, symptoms_list_processed.keys())
+    if match is None:
+        return symptom  # or return a default, or raise an error
+    closest_match, score, _ = match
+    return closest_match
 
 @app.route('/predict', methods=['GET', 'POST'])
 def home():
