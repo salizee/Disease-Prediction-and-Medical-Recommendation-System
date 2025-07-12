@@ -50,6 +50,9 @@ To run the Disease Prediction and Medical Recommendation System:
    ```bash
    http://localhost:5000
 
+   5. # All dependencies download: pip install flask pandas numpy scikit-learn fuzzywuzzy python-Levenshtein pickle5
+
+
 ## Team Members
 
 - Salisu Muhammad - A20541164
